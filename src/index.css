@@ -9,3 +9,11 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+div {
+    margin: 20px;
+}
+
+button {
+    margin-right: 10px;
+}

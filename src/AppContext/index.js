@@ -1,7 +1,14 @@
 import React from 'react';
 
+import { CountProvider } from './CounterContext';
+import Counter from './Counter';
+
 function App() {
-    return <div>App</div>;
+    return (
+        <CountProvider>
+            <Counter />
+        </CountProvider>
+    );
 }
 
 export default App;
