@@ -1,19 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './App';
+// import App from './App';
 // import AppContext from './AppContext';
 // import AppRedux from './AppRedux';
-// import AppRecoil from './AppRecoil';
+import AppRecoil from './AppRecoil';
 
 import './index.css';
 
 ReactDOM.render(
     <React.StrictMode>
-        <App />
+        {/* <App /> */}
         {/* <AppContext /> */}
         {/* <AppRedux /> */}
-        {/* <AppRecoil /> */}
+        <AppRecoil />
     </React.StrictMode>,
     document.getElementById('root'),
 );
